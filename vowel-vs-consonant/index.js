@@ -1,15 +1,19 @@
-// Create a JavaScript code that accepts a string of lowercase letters. Print the word followed by how many consonants and vowels it has.
-
-// "a", "e", "i", "o", and "u" are considered vowels.
-// Input Arrays	Expected Results
-// "hello"
-// "hello has 3 consonants and 2 vowels"
-// "ukelele"
-// "ukelele has 3 consonants and 4 vowels"
-// "awesome"	"awesome has 3 consonants and 4 vowels"
-// "onomonopia"	"onomonopia has 4 consonants and 6 vowels"
-// "textbook"	"textbook has 5 consonants and 3 vowels"
-
+const word = "input word here";
 // define a veriable with the string that you want to check for vowels and consonants
-// create a loop that checks verifable
+let vowels = ["a", "e", "i", "o", "u"];
+// define vowels "a", "e", "i", "o", and "u" are considered vowels
+let vcounter = 0;
+let ccounter = 0;
+// define 2 veriables with a value of 0
+for (let i = 0; i < word.length; i++) {
+  if (vowels.includes(word[i])) {
+    vcounter++;
+  } else {
+    ccounter++;
+  }
+  // create a loop that checks if the variable has a vowel or consonant and incriments the value for the counter
+}
+console.log(
+  word + " has " + ccounter + " consonants and " + vcounter + " vowels"
+);
 // print how many vowels and consonants that the word has
