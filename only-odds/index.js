@@ -1,4 +1,4 @@
-const array1 = ["2", "4", "6", "8", "10", "11", "12"];
+const array1 = [2, 4, 6, 8, 11, 20, 15, 22];
 // first create a array with the a set of number
 let onlyodd = [];
 // create a empty array
